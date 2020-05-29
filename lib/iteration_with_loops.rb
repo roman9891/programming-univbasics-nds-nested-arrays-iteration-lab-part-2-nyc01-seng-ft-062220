@@ -7,7 +7,7 @@ def find_min_in_nested_arrays(src)
     j = 0
     lowest_temp_per_day = src[i][0]
     while j < src[i].count do 
-      if src[i][j] < lowest_temp_per_day do 
+      if src[i][j] < lowest_temp_per_day
         #lowest_temp_per_day = src[i][j]
       end
       j += 1 
